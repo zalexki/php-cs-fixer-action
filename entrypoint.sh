@@ -1,2 +1,3 @@
 #!/bin/sh -l
-php vendor/bin/php-cs-fixer fix $*
+composer global require friendsofphp/php-cs-fixer
+php ~/.composer/vendor/bin/php-cs-fixer fix $* /github/workspace
