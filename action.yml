@@ -1,0 +1,13 @@
+# action.yml
+name: 'zalexki php-cs-fixer'
+description: 'PHP linter for 7.3'
+inputs:
+  other-cmds:
+    description: 'Add some configs'
+    required: false
+    default: '--dry-run --diff --using-cache=no --diff-format udiff --config=.php_cs.dist.default'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.other-cmds }}
