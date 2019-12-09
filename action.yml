@@ -1,9 +1,10 @@
 # action.yml
-name: 'zalexki php-cs-fixer'
+name: 'easy configurable php-cs-fixer'
+author: zalexki
+description: 'An easy way to run a configurable php-cs-fixer on your project without adding it as a dependency.'
 branding:
-  icon: 'award'  
-  color: 'green'
-description: 'php-cs-fixer for 7.3'
+  icon: 'check'  
+  color: 'blue'
 inputs:
   other-cmds:
     description: 'Add some configs'

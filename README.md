@@ -12,5 +12,6 @@ You can replace this with the other-cmds param :
 ```
 
 TODO:  
+- Add directory param
 - Fix default cs config
 - Support other php cs fixer versions
