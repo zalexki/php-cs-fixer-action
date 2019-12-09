@@ -1,5 +1,8 @@
 # action.yml
 name: 'zalexki php-cs-fixer'
+branding:
+  icon: 'award'  
+  color: 'green'
 description: 'php-cs-fixer for 7.3'
 inputs:
   other-cmds:
