@@ -1,3 +1,3 @@
 #!/bin/sh -l
-composer global require friendsofphp/php-cs-fixer:~2
+composer global require prestashop/php-dev-tools:v2.2
 php ~/.composer/vendor/bin/php-cs-fixer fix $*
