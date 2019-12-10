@@ -3,7 +3,7 @@ require_once '/root/.composer/vendor/autoload.php';
 $finder = PhpCsFixer\Finder::create()
     ->exclude('node_modules')
     ->exclude('vendor')
-    ->in(__DIR__);
+    ->in('/github/workspace');
 
 return PhpCsFixer\Config::create()
     ->setRules([

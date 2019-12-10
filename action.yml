@@ -9,7 +9,7 @@ inputs:
   other-cmds:
     description: 'Add some configs'
     required: false
-    default: '--dry-run --diff --using-cache=no --diff-format udiff'
+    default: '/github/workspace --path-mode=intersection --dry-run --diff --using-cache=no --diff-format udiff'
 runs:
   using: 'docker'
   image: 'Dockerfile'

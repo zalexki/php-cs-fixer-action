@@ -11,5 +11,5 @@ COPY --from=composer:1.8.6 /usr/bin/composer /usr/bin/composer
 RUN composer global require hirak/prestissimo
 
 ADD entrypoint.sh /entrypoint.sh
-ADD .php_cs.dist.tpl /.php_cs.dist.default
+ADD .php_cs.dist.tpl /.php_cs.dist.tpl
 ENTRYPOINT ["/entrypoint.sh"]
